@@ -17,7 +17,17 @@
   },
   "homepage": "https://github.com/QuoniamYIF/newmeadowlark#readme",
   "dependencies": {
+    "body-parser": "^1.14.1",
     "express": "^4.13.3",
     "express3-handlebars": "^0.5.2"
+  },
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "grunt": "^0.4.5",
+    "grunt-cafe-mocha": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-exec": "^0.4.6",
+    "mocha": "^2.3.3",
+    "zombie": "^4.1.0"
   }
 }
