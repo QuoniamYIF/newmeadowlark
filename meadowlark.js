@@ -39,7 +39,8 @@ var express = require('express'),
 		}
 	}),
 	fortune = require('./lib/fortune'),
-	jqupload = require('jquery-file-upload-middleware');
+	jqupload = require('jquery-file-upload-middleware'),
+	credentials = require('./credentials.js');
 
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
