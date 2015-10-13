@@ -1,0 +1,23 @@
+{
+  "name": "newmeadowlark",
+  "version": "1.0.0",
+  "description": "A node web",
+  "main": "meadowlark.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QuoniamYIF/newmeadowlark.git"
+  },
+  "author": "QuoniamYIF",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QuoniamYIF/newmeadowlark/issues"
+  },
+  "homepage": "https://github.com/QuoniamYIF/newmeadowlark#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "express3-handlebars": "^0.5.2"
+  }
+}
